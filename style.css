@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:  rgb(81, 231, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.my{
+    border: 1px solid rgb(130, 128, 128);
+    text-align: center;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow:-20px 10px 20px rgb(95, 129, 128);
+}
+.Login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow:-20px 10px 20px rgb(95, 129, 128);
+    border: 1px solid rgb(95, 129, 128);
+    height: 500px;
+    padding: 50px;
+
+}
+.Login h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.Login input{
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(150, 228, 223);
+}
+.sign{
+    margin-top: 50px;
+    font-size: 20px;
+}
+#LG{
+    margin-top: 5px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#LG:hover{
+    background-color:  rgb(22, 203, 194);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.sign a:hover{
+    color: #000;
+     font-size: 25px;
+}

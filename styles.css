@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  rgb(81, 231, 223);
+    margin-top: 30px;
+}
+.my{
+    border: 5px solid rgb(22, 201, 183);
+    text-align: center;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    padding: 10px;
+}
+.tt .aa{
+    display: flex;
+   justify-content: center;
+   box-shadow: -10px 5px 10px rgb(81, 95, 93);
+   height: 80px;
+   margin-top: 20px;
+}
+.tt .aa a{
+    margin-top: 10px;
+    margin-left: 900px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(79, 79, 179);
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.ba{
+    margin-top: 10px;
+}
+.bb {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+table,tr,th,td{
+    border: 2px solid #000;
+    border-collapse: collapse;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    
+}
+th{
+    background-color: rgb(0, 179, 179);
+}
+tr:hover, a:hover{
+    background-color: rgb(0, 179, 179);
+    color: white;
+    font-weight: bold;
+
+}
+.head1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.head1 .home{
+    margin-left: 800px;
+}
+.head1 .home a{
+    text-decoration: none;
+    border:1px solid rgb(0, 179, 179);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.head1 .home a:hover{
+    background-color:  rgb(0, 179, 179);
+    color: white;
+}
